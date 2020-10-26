@@ -1,41 +1,29 @@
 *{
-margin: 0;
-padding: 0 ;
+    margin: auto;
+    padding: 10px;
+    font-family: Nunito Sans;
 }
 
 
 .flex-container {
     display: flex;
-    justify-content: space-around;
     background-color: #544F53;
     color: white;
-    align-items: center;
-    flex-wrap: wrap;
-    max-width: 500 px;
+    width: fit-content;
+
 
   }
   .img {
     position: relative;
     width: 200px;
     height: 150px;
-    padding: 30px 0;
+    padding: 30px ;
     }
   
-  .box {
-    margin: 10px;
-    padding: 20px;
-    display: flex;
-    font-size: 30px;
-    flex-direction: row;
-     left: 0px;
-     top: 0px; 
-  }
-  .t {
-    background-color: #AB1F83;
-    position: absolute;
-    top:30px;
-    left:0;
-    padding:3px 8px;
-    opacity: 0.7;
 
+  
+  .t {
+    position: absolute;
+    background-color: #AB1F83;
+   
   }
