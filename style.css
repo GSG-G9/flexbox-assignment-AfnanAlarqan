@@ -6,18 +6,21 @@
 
 
 .flex-container {
-    display: flex;
     background-color: #544F53;
     color: white;
     width: fit-content;
 
 
   }
-  .img {
+ 
+  .box {
     position: relative;
+    padding-top: 20px;
+    display: inline-block;
+}
+  .img {
     width: 200px;
     height: 150px;
-    padding: 30px ;
     }
   
 
@@ -25,5 +28,11 @@
   .t {
     position: absolute;
     background-color: #AB1F83;
-   
+    left: 20px;
+    top: 30px;
+    z-index: 1;
   }
+
+
+
+
